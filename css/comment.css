@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+
+.comment {
+    padding:24px;
+    display: block;
+    border-radius: 24px;
+    margin: 40px 16px 80px;
+    backdrop-filter: blur(40px);
+    box-shadow: -3px -3px  0px   #ccc;
+    background: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 120%);
+  
+}
+
+.comment div  {
+    
+    text-align: center;
+}
+
+.comment p:nth-child(2) {
+
+    font-size: 17px;
+    line-height: 26px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold; 
+    color:var(--purple);
+    letter-spacing: 0.5px;
+}
+
+.comment p:nth-child(3) {
+
+    font:var(--caption);
+    letter-spacing: 0.4px;
+}
+
+@media screen and (min-width:768px) {
+
+    .comment {
+       
+        margin:80px 117px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+
+    .comment {
+
+        margin:80px 117px;
+        padding:80px;
+        
+      
+    }
+
+    .comment div img {
+        width: 80px;
+        height: 80px;
+    }
+    .comment p:nth-child(2) {
+
+        font-size: 34px;
+        text-align: center;
+        font:var(--headline4);
+
+    }
+    .comment p:nth-child(3) {
+
+        font:var(--headline5);
+        font-size:24px;
+        text-align: center;
+    }
+    
+    
+}
+

@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+
+
+
+.message {
+    display: block;
+    text-align: center;
+    margin-top:40px;
+}
+
+.message p:first-child {
+    font-size: 24px;
+    line-height: 39px;
+}
+
+.message p:nth-child(2) {
+    font: var(--headline4);
+    font-size: 24px;
+}
+
+@media screen and  (min-width:1024px) {  
+    
+    .message {
+      padding: 200px 233px;
+      align-items: center;
+    }
+    .message p:first-child {
+
+       font-size:40px;
+       line-height: 55px;
+       font-family: 'Oxygen', sans-serif;
+    }
+}
+    
