@@ -1,4 +1,4 @@
-# tallerPortafolioJaume
+# Taller Portafolio Jaume
 
 Visita el portafolio aqui https://taller-portafolio-jaume.vercel.app/
 
